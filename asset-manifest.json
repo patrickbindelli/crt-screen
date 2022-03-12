@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/crt-screen/static/css/main.76357e03.css",
+    "main.css": "/crt-screen/static/css/main.dc10c273.css",
     "main.js": "/crt-screen/static/js/main.f1aa5875.js",
     "index.html": "/crt-screen/index.html",
-    "main.76357e03.css.map": "/crt-screen/static/css/main.76357e03.css.map",
+    "main.dc10c273.css.map": "/crt-screen/static/css/main.dc10c273.css.map",
     "main.f1aa5875.js.map": "/crt-screen/static/js/main.f1aa5875.js.map"
   },
   "entrypoints": [
-    "static/css/main.76357e03.css",
+    "static/css/main.dc10c273.css",
     "static/js/main.f1aa5875.js"
   ]
 }
