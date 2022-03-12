@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/patrickbindelli/crt-screen/static/css/main.33ebb152.css",
-    "main.js": "/patrickbindelli/crt-screen/static/js/main.c3c32ef6.js",
-    "index.html": "/patrickbindelli/crt-screen/index.html",
-    "main.33ebb152.css.map": "/patrickbindelli/crt-screen/static/css/main.33ebb152.css.map",
-    "main.c3c32ef6.js.map": "/patrickbindelli/crt-screen/static/js/main.c3c32ef6.js.map"
+    "main.css": "/crt-screen/static/css/main.33ebb152.css",
+    "main.js": "/crt-screen/static/js/main.c3c32ef6.js",
+    "index.html": "/crt-screen/index.html",
+    "main.33ebb152.css.map": "/crt-screen/static/css/main.33ebb152.css.map",
+    "main.c3c32ef6.js.map": "/crt-screen/static/js/main.c3c32ef6.js.map"
   },
   "entrypoints": [
     "static/css/main.33ebb152.css",
