@@ -193,6 +193,7 @@ body::after{
     font-size: 2em;
     width: 100%;
     animation: 
+        textShadow 1.5s infinite,
         typing 2s steps(20, end),
         2.5s blink-caret .5s step-end infinite;
      
