@@ -19,7 +19,6 @@ body::after{
     background-size: 100% 2px, 3px 100%;
     pointer-events: none;
     animation: flicker 0.15s infinite;
-
 }
 
 .terminal{
@@ -173,3 +172,38 @@ body::after{
       text-shadow: 0 2.6208764473832513px 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
     }
   }
+
+
+.about{
+    text-align: center;
+    display: inline-block;
+}
+
+.container{
+    text-align: center;
+}
+
+.typing{
+    color: white;
+    white-space: nowrap;
+    margin: 0 auto;
+    overflow: hidden;
+    border-right: .50em solid #26FFA7;
+    font-family: monospace;
+    font-size: 2em;
+    width: 100%;
+    animation: 
+        typing 2s steps(20, end),
+        2.5s blink-caret .5s step-end infinite;
+     
+}   
+
+@keyframes typing {
+    from { width: 0 }
+}
+  
+      
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    50% {border-color: transparent}
+}

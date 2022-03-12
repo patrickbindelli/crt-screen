@@ -1,0 +1,24 @@
+.topnav{
+    background-color:rgba(0, 0, 0, 0);
+    overflow: hidden;
+    font: 1.3rem Inconsolata, monospace;
+    color: white;
+    padding: 0 0 50px;
+}
+
+.topnav a{
+    color: white;
+    float: left;
+    padding: 6px 16px;
+    text-decoration: none;
+    animation: textShadow 1.5s infinite;
+    font-size: 20px;
+}
+
+
+.topnav a.active,
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    animation: none;
+}
