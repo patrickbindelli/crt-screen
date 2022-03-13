@@ -1,0 +1,18 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 400px;
+    align-items: center;
+}
+
+.text{
+    font: 1.3rem Inconsolata, monospace;
+    color: white;
+    font-size: x-large;
+    text-shadow: 0 0 5px #C8C8C8;
+    animation: textShadow 2s infinite;
+}
+
+.typewriter{
+    text-align: left;
+}

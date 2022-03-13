@@ -4,6 +4,7 @@ body {
         rgba(6, 71, 6, 0.75), black 120%
     );
     height: 100vh;
+    overflow: hidden;
 }
 
 body::after{
@@ -21,22 +22,8 @@ body::after{
     animation: flicker 0.15s infinite;
 }
 
-.terminal{
-    width: 100%;
-    height: 100vh;
-    resize: none;
-    border: none;
-    outline:none;
-    background-color:rgba(0, 0, 0, 0);
-    font: 1.3rem Inconsolata, monospace;
-    color: white;
-    font-size: x-large;
-    text-shadow: 0 0 5px #C8C8C8;
-    animation: textShadow 2s infinite;
-}
-
 ::selection {
-  background: #0080FF;
+  background: gray;
   text-shadow: none;
   animation: none;
 }
@@ -184,20 +171,22 @@ body::after{
 }
 
 .typing{
+    display: flex;
+    justify-content: center;
     color: white;
-    white-space: nowrap;
     margin: 0 auto;
-    overflow: hidden;
-    border-right: .50em solid #26FFA7;
     font-family: monospace;
-    font-size: 2em;
-    width: 100%;
+    font-size: x-large;
+    width: 99%;
     animation: 
-        textShadow 1.5s infinite,
-        typing 2s steps(20, end),
-        2.5s blink-caret .5s step-end infinite;
+        textShadow 1.5s infinite
      
 }   
+
+.Typewriter__cursor{
+    color: #00A500;
+    
+}
 
 @keyframes typing {
     from { width: 0 }
@@ -208,3 +197,52 @@ body::after{
 @keyframes blink-caret {
     50% {border-color: transparent}
 }
+
+.test{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-image: url("./github.svg"); 
+}
+
+@keyframes screenoff {
+    0% {
+      height: 100vh;
+    }
+    10% {
+      background: white;
+    }
+    60% {
+      height: 40px;
+      border-radius: 0%;
+    }
+    70% {
+      height: 20px;
+      border-radius: 20%;
+    }
+    80% {
+      height: 10px;
+      width: 100%;
+    }
+    90% {
+      width: 50%;
+      height: 5px;
+    }
+    95% {
+      height: 2px;
+    }
+    97% {
+      width: 100%;
+    }
+    100% {
+      height: 1px;
+      width: 0;
+      background: white;
+    }
+  }

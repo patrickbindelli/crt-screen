@@ -1,5 +1,6 @@
 import "./style.css";
 import React, { useEffect, useState } from 'react';
+import {Link} from "react-router-dom"
 
 function Navbar(props){
     const [activeIndex, setActiveIndex] = React.useState(0);
@@ -20,7 +21,7 @@ function Navbar(props){
     return(
         <div className="topnav">
             {props.options.map((op, index )=> 
-                <a key={index} className={activeIndex === index ? "active" : "unactive"} href={op.href} onClick={() => handleOnClick(index)}>{op.option}</a>,
+                <Link className={activeIndex === index ? "active" : "unactive"} to={op.href} onClick={() => handleOnClick(index)}>{op.option}</Link>
             )}
         </div>
     )
