@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/crt-screen/static/css/main.38671929.css",
-    "main.js": "/crt-screen/static/js/main.fc57c156.js",
+    "main.js": "/crt-screen/static/js/main.03de68c3.js",
     "index.html": "/crt-screen/index.html",
     "static/media/github.svg": "/crt-screen/static/media/github.22e65707326e3e1e37af.svg",
     "main.38671929.css.map": "/crt-screen/static/css/main.38671929.css.map",
-    "main.fc57c156.js.map": "/crt-screen/static/js/main.fc57c156.js.map"
+    "main.03de68c3.js.map": "/crt-screen/static/js/main.03de68c3.js.map"
   },
   "entrypoints": [
     "static/css/main.38671929.css",
-    "static/js/main.fc57c156.js"
+    "static/js/main.03de68c3.js"
   ]
 }
