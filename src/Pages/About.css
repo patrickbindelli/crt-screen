@@ -1,8 +1,9 @@
 .about{
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    gap: 400px;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .text{
@@ -11,8 +12,4 @@
     font-size: x-large;
     text-shadow: 0 0 5px #C8C8C8;
     animation: textShadow 2s infinite;
-}
-
-.typewriter{
-    text-align: left;
 }

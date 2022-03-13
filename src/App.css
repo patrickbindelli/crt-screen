@@ -1,7 +1,7 @@
 body {
     background-color: black;
     background-image: radial-gradient(
-        rgba(6, 71, 6, 0.75), black 120%
+        rgba(3, 59, 3, 0.75), black 120%
     );
     height: 100vh;
     overflow: hidden;
@@ -9,7 +9,6 @@ body {
 
 body::after{
     content: " ";
-    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -157,92 +156,5 @@ body::after{
     }
     100% {
       text-shadow: 0 2.6208764473832513px 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
-    }
-  }
-
-
-.about{
-    text-align: center;
-    display: inline-block;
-}
-
-.container{
-    text-align: center;
-}
-
-.typing{
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin: 0 auto;
-    font-family: monospace;
-    font-size: x-large;
-    width: 99%;
-    animation: 
-        textShadow 1.5s infinite
-     
-}   
-
-.Typewriter__cursor{
-    color: #00A500;
-    
-}
-
-@keyframes typing {
-    from { width: 0 }
-}
-  
-      
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    50% {border-color: transparent}
-}
-
-.test{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    -webkit-mask-size: contain;
-    mask-size: contain;
-    -webkit-mask-position: center;
-    mask-position: center;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    mask-image: url("./github.svg"); 
-}
-
-@keyframes screenoff {
-    0% {
-      height: 100vh;
-    }
-    10% {
-      background: white;
-    }
-    60% {
-      height: 40px;
-      border-radius: 0%;
-    }
-    70% {
-      height: 20px;
-      border-radius: 20%;
-    }
-    80% {
-      height: 10px;
-      width: 100%;
-    }
-    90% {
-      width: 50%;
-      height: 5px;
-    }
-    95% {
-      height: 2px;
-    }
-    97% {
-      width: 100%;
-    }
-    100% {
-      height: 1px;
-      width: 0;
-      background: white;
     }
   }
